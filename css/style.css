@@ -199,7 +199,7 @@ header{
 ******************************/
 .design{
 	padding: 75px 0px;
-	border-bottom: 1.5px solid #616368;
+	border-bottom: 1.5px solid #f4f4f4;
 }
 .design-item{
 	display: flex;
@@ -213,7 +213,8 @@ header{
 	padding-right: 50px;
 }
 .design .design-right h1{
-	font-size: 40px;
+	color: #242f51;
+	font-size: 36px;
 	font-weight: 600;
 } 
 .design .design-right p{
@@ -228,4 +229,382 @@ header{
 	background: #2500f9;
 	color: white;
 	border: none;
+}
+
+/*****************************
+
+*********app section**********
+
+******************************/
+.app{
+	padding: 136px 0px;
+	text-align: center;
+}
+.app .row-01{
+	padding-bottom: 86px;
+}
+.app .col-md-4{
+	padding: 0px 50px;
+}
+.app h1{
+	font-size: 36px;
+	font-weight: 600;
+}
+.app .p-top{
+	color: #616368;
+	font-size: 16px;
+	font-weight: 400;
+	margin: auto;
+	padding-top: 36px;
+	padding-bottom: 90px;
+	width: 60%;
+}
+.app h2{
+	font-size: 20px;
+	font-weight: 600;
+}
+.app .app-p{
+	color: #616368;
+	font-size: 16px;
+	font-weight: 400;
+}
+.app .app-h2{
+	color: #242f51;
+	padding-bottom: 18px;
+	padding-top: 36px;
+}
+
+/*****************************
+
+******ultimate section********
+
+******************************/
+.ultimate{
+	background: white;
+	padding: 56px 0px;
+	position: relative;
+}
+.ultimate .container .row{
+	padding: 62px 0px;
+}
+.ultimate .container{
+	position: relative;
+}
+.ultimate h1{
+	color: #242f51;
+	font-size: 36px;
+	font-weight: 600;
+	padding-right: 152px;
+}
+.ultimate p{
+	color: #616368;
+	font-size: 16px;
+	font-weight: 400;
+}
+.ultimate .p-top{
+	padding-right: 88px;
+	padding-top: 36px;
+}
+.ultimate h2{
+	font-size: 20px;
+	font-weight: 600;
+	padding-top: 36px;
+	padding-bottom: 18px;
+}
+.ultimate button{
+	padding: 10px 38px;
+	border-radius: 31px;
+	background: #2500f9;
+	color: white;
+	border: none;
+	margin-top: -10px;
+}
+
+/*****************************
+
+******Pricing section********
+
+******************************/
+.pricing{
+	padding-top: 118px;
+	padding-bottom: 105px;
+	text-align: center;
+	border-bottom: 1.5px solid #f4f4f4;
+}
+.container2{
+	max-width: 766px;
+	margin: 0px auto;
+}
+.pricing .row{
+	padding-top: 42px;
+}
+.pricing h1{
+	color: #242f51;
+	font-size: 36px;
+	font-weight: 600;
+}
+.pricing .p-top{
+	color: #616368;
+	font-size: 16px;
+	font-weight: 400;
+	padding-top: 36px;
+	padding-bottom: 80px;
+}
+.pricing .annually{
+	border: 2px solid #ebebeb;
+	padding: 20px 4px;
+	border-radius: 40px;
+}
+.pricing .annually a{
+	color: #616368;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+}
+.pricing .monthly{
+	padding: 16px 36px;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	background: #2500f9;
+	border: none;
+	border-radius: 40px;
+}
+.price-top{
+	background-image: linear-gradient(#ffffff, #f4f7f9);
+	padding-bottom: 42px;
+	padding-top: 72px;
+	margin-top: 38px;
+}
+.price-top h2{
+	color: #242f51;
+	font-size: 60px;
+	font-weight: 600;
+	padding-bottom: 28px;
+}
+.price-top h2 span{
+	font-size: 18px;
+	font-weight: 400;
+	color: #616368;
+}
+.price-top h3{
+	color: #242f51;
+	font-size: 20px;
+	font-weight: 600;
+	padding-bottom: 15px;
+}
+.price-top p{
+	color: #616368;
+	font-size: 16px;
+	font-weight: 400;
+}
+.pricing .box1{
+	box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.4);
+	padding-right: 20px;
+	transition: .5s;
+}
+.pricing .box2{
+	box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.4);
+	padding-left: 20px;
+	transition: .5s;
+}
+.pricing .box1:hover{
+	border: 1px solid #ebebeb;
+	transition: .5s;
+}
+.pricing .box2:hover{
+	border: 1px solid #ebebeb;
+	transition: .5s;
+}
+.pricing .box1 ul{
+	padding-top: 45px;
+	padding-bottom: 13px;
+}
+.pricing .box1 ul li{
+	color: #616368;
+	font-size: 16px;
+	font-weight: 400;
+	padding-bottom: 32px;
+	list-style: none;
+}
+.pricing .box2 ul{
+	padding-top: 45px;
+	padding-bottom: 13px;
+}
+.pricing .box2 ul li{
+	color: #616368;
+	font-size: 16px;
+	font-weight: 400;
+	padding-bottom: 32px;
+	list-style: none;
+}
+.pricing .box1 button{
+	padding: 22px 52px;
+	border-radius: 40px;
+	background: #2500f9;
+	color: white;
+	border: none;
+	margin-bottom: 42px;
+}
+.pricing .box2 a{
+	display: block;
+	text-decoration: none;
+	margin-bottom: 25px;
+	margin-top: 32px;
+	font-size: 16px;
+	font-weight: 400px
+}
+.pricing .box1{
+	padding: 0px;
+	height: auto;
+}
+.pricing .box2{
+	padding: 0px;
+}
+.pricing .box2 button{
+	padding: 22px 52px;
+	border-radius: 40px;
+	background: #2500f9;
+	color: white;
+	border: none;
+	margin-bottom: 30px;
+}
+
+/*****************************
+
+****Testimonial section********
+
+******************************/
+
+.testimonial{
+	background: url(../img/test-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin: 150px 0px;
+}
+.testimonial h1{
+	color: #242f51;
+	font-size: 36px;
+	font-weight: 600;
+	padding-bottom: 28px;
+}
+.testimonial .p-top{
+	color: #616368;
+	font-size: 16px;
+	font-weight: 400;
+	padding-bottom: 40px;
+}
+.testimonial .star-i i{
+	color: #ffcc00;
+	margin-bottom: 32px;
+}
+.testimonial h2{
+	color: #242f51;
+	font-size: 20px;
+	font-weight: 600;
+	padding-bottom: 32px;
+}
+.testimonial .p-bottom{
+	color: #616368;
+	font-size: 16px;
+	font-weight: 400;
+	padding-bottom: 62px;
+}
+.testimonial .row-02{
+	align-items: center;
+}
+.testimonial h3{
+	color: #242f51;
+	font-size: 18px;
+	font-weight: 600;
+}
+.testimonial .p-name{
+	color: #616368;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+
+/*****************************
+
+****FAQ section********
+
+******************************/
+.FAQ{
+	padding-top: 40px;
+	padding-bottom: 115px;
+	border-bottom: 1.5px solid #f4f4f4;
+}
+.FAQ h1{
+	color: #242f51;
+	font-size: 36px;
+	font-weight: 600;
+	padding-bottom: 32px;
+	text-align: center;
+}
+.FAQ p{
+	color: #616368;
+	font-size: 16px;
+	font-weight: 400;
+	padding-bottom: 68px;
+	text-align: center;
+}
+
+/*****************************
+
+****download section********
+
+******************************/
+.download  h1{
+	color: #242f51;
+	font-size: 48px;
+	font-weight: 600;
+	padding-bottom: 34px;
+	padding-top: 90px;
+}
+.download p{
+	color: #616368;
+	font-size: 16px;
+	font-weight: 400;
+	padding-bottom: 52px;
+}
+.download-l img{
+	margin-right: 36px;
+	padding-bottom: 110px;
+}
+
+/*****************************
+
+****download section********
+
+******************************/
+footer{
+	padding-top: 118px;
+	padding-bottom: 128px;
+	text-align: center;
+	background: #09142e;
+}
+footer ul{
+	padding-bottom: 52px;
+}
+footer ul li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 34px;
+	padding-top: 52px;
+	color: white;
+}
+footer .f-icon i{
+	color: #273043;
+	font-size: 30px;
+	padding-right: 22px;
+}
+footer .f-icon i:hover{
+	color: white;
+}
+footer p{
+	font-size: 14px;
+	color: #273043;
+	padding-top: 92px;
 }
