@@ -1,0 +1,178 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  body{
+    text-align: center;
+  }
+  .banner{
+    background: white;
+  }
+  .banner .row .col-md-6{
+    flex-basis: 100%;
+  }
+  .banner-left .icon-01 {
+    font-size: 18px;
+    position: absolute;
+    z-index: 1200;
+    top: 0px;
+    left: 0px;
+  }
+  .ultimate{
+    padding-top: 0px;
+  }
+  .ultimate h1 {
+    padding-right: 0px;
+  }
+  .ultimate .p-top {
+    padding-right: 0px;
+  }
+  .download-l img {
+    padding-bottom: 24px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  body{
+    text-align: center;
+  }
+  .banner{
+    background: white;
+  }
+  .jackpot h1{
+    border: none;
+  }
+  .ultimate h1 {
+    padding-right: 0px;
+  }
+  .ultimate .p-top {
+    padding-right: 0px;
+  }
+  .testimonial{
+    background: white;
+  }
+  .download .row{
+    flex-direction: column-reverse;
+  }
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  body{
+    text-align: center;
+  }
+  h1 {
+    font-size: 27px;
+    line-height: 36px;
+  }
+
+  .banner{
+    background: white;
+  }
+  .banner-left .editors{
+    font-size: 14px;
+  }
+  .banner-left .icon-01 {
+    top: -3px;
+    left: -7px;
+  }
+  .banner-left .icon-01 img{
+    width: 67%;
+  }
+  .banner-left h1 {
+    font-size: 27px;
+    line-height: 36px;
+  }
+  .company{
+    padding: 0px;
+  }
+  .features-right {
+    text-align: center;
+  }
+  .features-right h1{
+    font-size: 27px;
+    line-height: 36px;
+  }
+  .jackpot{
+    padding: 0px;
+  }
+  .jackpot h1{
+    border: none;
+    font-size: 27px;
+    line-height: 36px;
+  }
+  .features-02 p {
+    padding-right: 0px;
+  }
+  .design .design-right h1 {
+    font-size: 27px;
+    line-height: 36px;
+    padding: 38px 0px;
+  }
+  .ultimate h1 {
+    color: #242f51;
+    font-size: 27px;
+    font-weight: 600;
+    padding-right: 0px;
+    line-height: 36px;
+  }
+  .ultimate .p-top {
+    padding-right: 0px;
+  }
+  .pricing{
+    padding-top: 0px;
+  }
+  .testimonial{
+    background: white;
+  }
+  .FAQ{
+    padding-top: 0px;
+  }
+  
+}

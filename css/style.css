@@ -58,6 +58,7 @@ header{
 	top: 0;
 }
 .banner-left h1{
+	color: #242f51;
 	font-size: 60px;
 	font-weight: 700;
 	line-height: 78px;
@@ -74,6 +75,11 @@ header{
 	background: #2500f9;
 	color: white;
 	border: none;
+}
+.banner-left button:hover{
+	color: #2500f9;
+	background: white;
+	border: 1px solid #2500f9;
 }
 .banner-left .demo{
 	font-size: 16px;
