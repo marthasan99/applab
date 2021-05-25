@@ -631,6 +631,9 @@ footer ul li a{
 	color: white;
 	text-decoration: none;
 }
+footer ul li a:hover{
+	color: #fcae61;
+}
 footer .f-icon i{
 	color: #273043;
 	font-size: 30px;
