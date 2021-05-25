@@ -24,6 +24,11 @@ header{
 	color: white;
 	border: none;
 }
+.header-btn:hover{
+	color: #2500f9;
+	background: white;
+	border: 1px solid #2500f9;
+}
 
 /*****************************
 
@@ -109,7 +114,7 @@ header{
 
 /*****************************
 
-********Company section********
+********Features section*******
 
 ******************************/
 
@@ -237,6 +242,11 @@ header{
 	color: white;
 	border: none;
 }
+.design .design-right button:hover{
+	color: #2500f9;
+	background: white;
+	border: 1px solid #2500f9;
+}
 
 /*****************************
 
@@ -325,6 +335,11 @@ header{
 	color: white;
 	border: none;
 	margin-top: -10px;
+}
+.ultimate button:hover{
+	color: #2500f9;
+	background: white;
+	border: 1px solid #2500f9;
 }
 
 /*****************************
@@ -453,6 +468,11 @@ header{
 	border: none;
 	margin-bottom: 42px;
 }
+.pricing .box1 button:hover{
+	color: #2500f9;
+	background: white;
+	border: 1px solid #2500f9;
+}
 .pricing .box2 a{
 	display: block;
 	text-decoration: none;
@@ -475,6 +495,11 @@ header{
 	color: white;
 	border: none;
 	margin-bottom: 30px;
+}
+.pricing .box2 button:hover{
+	color: #2500f9;
+	background: white;
+	border: 1px solid #2500f9;
 }
 
 /*****************************
