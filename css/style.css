@@ -479,7 +479,7 @@ header{
 	margin-bottom: 25px;
 	margin-top: 32px;
 	font-size: 16px;
-	font-weight: 400px
+	font-weight: 400px;
 }
 .pricing .box1{
 	padding: 0px;
@@ -646,4 +646,10 @@ footer p{
 	font-size: 14px;
 	color: #273043;
 	padding-top: 92px;
+}
+
+
+
+.hidden{
+	visibility: hidden;
 }

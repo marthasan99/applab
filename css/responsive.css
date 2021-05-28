@@ -55,6 +55,13 @@
   .download-l img {
     padding-bottom: 24px;
   }
+  .hidden{
+    visibility: visible;
+  }
+  .testimonial .hidden{
+    visibility: hidden !important;
+
+  }
 }
 
 /* 
@@ -64,7 +71,24 @@
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   
-  /* CSS */
+  .hidden{
+    visibility: visible;
+  }
+  .banner{
+    padding: 36px 0px;
+  }
+  .company{
+    padding: 36px 0px;
+  }
+  .features-02 p{
+    padding-right: 0px;
+  }
+  .design .design-right p{
+    padding-top: 18px;
+  }
+  .testimonial{
+    background: none;
+  }
   
 }
 
@@ -80,6 +104,9 @@
   }
   .banner{
     background: white;
+  }
+  .banner .row{
+    flex-direction: column-reverse;
   }
   .jackpot h1{
     border: none;
@@ -97,11 +124,15 @@
     flex-direction: column-reverse;
   }
 
+
+}
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
 
+
+  
 @media (min-width: 320px) and (max-width: 480px) {
   
   body{
@@ -114,6 +145,11 @@
 
   .banner{
     background: white;
+    padding: 0px;
+    padding-bottom: 60px;
+  }
+  .banner .row{
+    flex-direction: column-reverse;
   }
   .banner-left .editors{
     font-size: 14px;
@@ -131,6 +167,9 @@
   }
   .company{
     padding: 0px;
+  }
+  .features{
+    padding: 30px 0px;
   }
   .features-right {
     text-align: center;
@@ -155,6 +194,9 @@
     line-height: 36px;
     padding: 38px 0px;
   }
+  .ultimate{
+    padding: 0px;
+  }
   .ultimate h1 {
     color: #242f51;
     font-size: 27px;
@@ -165,11 +207,19 @@
   .ultimate .p-top {
     padding-right: 0px;
   }
+  .ultimate .ultimate-r{
+    padding-top: 40px;
+  }
   .pricing{
     padding-top: 0px;
   }
   .testimonial{
     background: white;
+    padding: 70px 0px;
+    margin: 35px 0px;
+  }
+  .testimonial .test-l{
+    padding-bottom: 40px;
   }
   .FAQ{
     padding-top: 0px;
@@ -179,6 +229,9 @@
   }
   .download-l img {
     padding-bottom: 45px;
+  }
+  .hidden{
+    visibility: visible;
   }
   
 }
