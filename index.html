@@ -28,8 +28,413 @@
 
     <title>AppLab</title>
   </head>
-  <body>
 
+  <body id="body" onload="preload()">
+    <section class="preloader" id="loader">
+      <div class="container screen">
+        <div class="circle"> 
+          
+        </div>
+      </div>
+    </section>
+    <header id="home">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#key-features">Key Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonial">Testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#FAQ">FAQ</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="header-btn">Try for free</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Banner Section -->
+    <section class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="banner-left">
+              <span class="editors">  #1 Editors Choice App of 2020 
+                <div class="icon-01">
+                  <img src="img/11.png" class="img-fluid">
+                </div>
+              </span>
+              <h1>Best app for your mordern lifestyle</h1>
+              <p>Increase productivity with a simple to-do app. app for managing your personal budgets.</p>
+              <button>Try for free</button>
+              <span class="demo">Try demo video</span>
+            </div>
+          </div>
+          <div class="col-md-6 hidden">
+            <img src="img/banner-phn.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Company Section -->
+    <section class="company">
+      <div class="container">
+        <p>Trusted by companies like</p>
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="img/logo-01.png" class="img-fluid slider-item"></div>
+            <div class="item"><img src="img/logo-02.png" class="img-fluid slider-item"></div>
+            <div class="item"><img src="img/logo-03.png" class="img-fluid slider-item"></div>
+            <div class="item"><img src="img/logo-04.png" class="img-fluid slider-item"></div>
+            <div class="item"><img src="img/logo-05.png" class="img-fluid slider-item"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="key-features">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/feature-phn.png" class="img-fluid">
+          </div>
+          <div class="col-md-5 features-right">
+            <h1>Awesome apps features</h1>
+            <p class="fr-p">Increse productivity with a simple to-do app for managing your personal budgets.</p>
+            <div class="row">
+              <div class="col-md-3">
+                <img src="img/fea-03.png" class="img-fluid">
+              </div>
+              <div class="col-md-7">
+                <h2 class="feat-01">Fast Performance</h2>
+                <p>Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <img src="img/fea-02.png" class="img-fluid">
+              </div>
+              <div class="col-md-7">
+                <h2 class="feat-02">Prototyping</h2>
+                <p>Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <img src="img/fea-01.png" class="img-fluid">
+              </div>
+              <div class="col-md-7">
+                <h2 class="feat-03">Vector Editing</h2>
+                <p>Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- jackpot Section -->
+    <section class="jackpot">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1> Smart jackpots that you may love this anytime & anywhere</h1>
+          </div>
+          <div class="col-md-6">
+            <p>The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- featues-02 Section -->
+    <section class="features-02">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="img/smart-03.png" class="img-fluid">
+            <h2 class="feat-01">Automatic Payouts</h2>
+            <p>Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="img/smart-2.png" class="img-fluid">
+            <h2 class="feat-02">Network Effects</h2>
+            <p>Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="img/smart-01.png" class="img-fluid">
+            <h2 class="feat-03">Bigger Rewards Method</h2>
+            <p>Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- Design Section -->
+    <section class="design">
+      <div class="container">
+        <div class="row design-item">
+          <div class="col-md-6 design-left">
+            <img src="img/design-l.png" class="img-fluid">
+          </div>
+          <div class="col-md-6 design-right">
+            <h1>Design & built by the latest code integration</h1>
+            <p>The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p>
+            <button>Learn more</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- app Section -->
+    <section class="app">
+      <div class="container">
+        <h1>Why you should choose our app</h1>
+        <p class="p-top">The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p>
+        <div class="row row-01">
+          <div class="col-md-4 ">
+            <img src="img/ser-06.png" class="img-fluid">
+            <h2 class="app-h2">App Developement</h2>
+            <p class="app-p">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="img/ser-05.png" class="img-fluid">
+            <h2 class="app-h2">10 Times Award</h2>
+            <p class="app-p">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="img/ser-04.png" class="img-fluid">
+            <h2 class="app-h2">Cloud Storage</h2>
+            <p class="app-p">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 ">
+            <img src="img/ser-03.png" class="img-fluid">
+            <h2 class="app-h2">Customization</h2>
+            <p class="app-p">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="img/ser-02.png" class="img-fluid">
+            <h2 class="app-h2">UX Planning</h2>
+            <p class="app-p">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="img/ser-01.png" class="img-fluid">
+            <h2 class="app-h2">Customer Support</h2>
+            <p class="app-p">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ultimate Section -->
+    <section class="ultimate">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Ultimate features that we built</h1>
+            <p class="p-top">The rise of mobile devices transforms the way we consume information entirely.</p>
+            <div class="row">
+              <div class="col-md-6 ">
+                <img src="img/ser-06.png" class="img-fluid">
+                <h2 class="app-h2">App Developement</h2>
+                <p class="app-p">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+              </div>
+              <div class="col-md-6">
+                <img src="img/ser-02.png" class="img-fluid">
+                <h2 class="app-h2">UX Planning</h2>
+                <p class="app-p">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <img src="img/ser-04.png" class="img-fluid">
+                <h2 class="app-h2">Cloud Storage</h2>
+                <p class="app-p">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+              </div>
+              <div class="col-md-6">
+                <img src="img/ser-01.png" class="img-fluid">
+                <h2 class="app-h2">Customer Support</h2>
+                <p class="app-p">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+              </div>
+            </div>
+            <button>See all</button>
+          </div>
+          <div class="col-md-6">
+            <img src="img/ultimate-r.png" class="img-fluid ultimate-r">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+      <div class="container container2">
+        <h1>Get awesome charge, without extra charges</h1>
+        <p class="p-top">The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p>
+        <span class="annually"><button class="monthly">Monthly</button><a>Annually</a></span>
+        <div class="row">
+          <div class="col-md-5 box box1">
+            <div class="price-top">
+              <h2>$0<span>/month</span></h2>
+              <h3>Business Class</h3>
+              <p>for samll teams and office</p>
+            </div>
+            <ul>
+              <li>Drag & Drop Builder</li>
+              <li>1000's of Templates</li>
+              <li>Blog Support Tools</li>
+              <li>eCommerce Store</li>
+            </ul>
+            <button>Start Free Trail</button>
+          </div>
+          <div class="col-md-1">
+            
+          </div>
+          <div class="col-md-5 box box2">
+            <div class="price-top">
+              <h2>$99<span>/month</span></h2>
+              <h3>Pro Master</h3>
+              <p>for best opportunities</p>
+            </div>
+            <ul>
+              <li>Drag & Drop Builder</li>
+              <li>1000's of Templates</li>
+              <li>Blog Support Tools</li>
+              <li>eCommerce Store</li>
+            </ul>
+            <button>Start Free Trail</button>
+            <a href=""> Or start 14 days free trail</a>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial" id="testimonial">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 hidden test-l">
+            <img src="img/test-l.png" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <h1>Meet Client Satisfaction by using product</h1>
+            <p class="p-top">The rise of mobile devices transforms the way we consume. elevant channels such as Facebook.</p>
+            <div class="star-i">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h2>User Friendly & Customizable</h2>
+            <p class="p-bottom">Bring to the able win-win survival strategies to ensurre proactive domination.At the end of the day. going forward, a new normal that has evolved from genaration X is on the ranway heading towardds a streamlined cloud solution. User genarated content in real-time will have multiple touchpoints for off shoring.</p>
+            <div class="row row-02">
+              <div class="col-md-3">
+                <img src="img/face-01.png" class="img-fluid">
+              </div>
+              <div class="col-md-6">
+                <h3>Zoltan Nemeth</h3>
+                <p class="p-name">CEO of Pixler Lab</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="FAQ" id="FAQ">
+      <div class="container">
+        <h1>Frequently asked questions</h1>
+        <p class="p-top">The rise of mobile devices transforms the way we consume. elevant channels such as Facebook.</p>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                How to contact with riders emergency?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Leverage agile framworks to provide a robust synopsis for high level overviews. literative approaches to corporate strategy faster collaboration thinking to further the overall value proposiotion. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                App installation failed, how to update system information?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Leverage agile framworks to provide a robust synopsis for high level overviews. literative approaches to corporate strategy faster collaboration thinking to further the overall value proposiotion. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Website response taking time, how to improve?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Leverage agile framworks to provide a robust synopsis for high level overviews. literative approaches to corporate strategy faster collaboration thinking to further the overall value proposiotion. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                New update fixed all bug and issues
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Leverage agile framworks to provide a robust synopsis for high level overviews. literative approaches to corporate strategy faster collaboration thinking to further the overall value proposiotion. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                How to Contact with riders emergency?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Leverage agile framworks to provide a robust synopsis for high level overviews. literative approaches to corporate strategy faster collaboration thinking to further the overall value proposiotion. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- download Section -->
     <section class="download" id="download" onmouseover="mouse()" onmouseout="mouse2()">
@@ -39,8 +444,8 @@
             <h1>Download our app now!</h1>
             <p>The rise of mobile devices transforms the way we consume. elevant channels such as Facebook.</p>
             <div class="download-img">
-              <img src="img/google.png">
-              <img src="img/appstore.png">
+              <a href="#"><img src="img/google.png"></a>
+              <a href="#"><img src="img/appstore.png"></a>
             </div>
           </div>
           <div class="col-md-6">
@@ -71,24 +476,48 @@
       </div>
     </footer>
 
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+    <script type="text/javascript">
+      $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    })
+    </script>
     <script type="text/javascript">
 
       var download= document.getElementById("download");
       function mouse(){
-        download.style.background = 'black'
+        download.style.background = 'grey';
       }
       function mouse2(){
-        download.style.background = 'white'
+        download.style.background = 'white';
       }
 
-      /*document.addEventListener('click',function(){
-        download.style.background = 'black';
-      })*/
 
+      var body= document.getElementById("body");
+      var loader= document.getElementById("loader");
+      function preload(){
+        loader.style.display= 'none'
+      }
     </script>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    -->
   </body>
 </html>

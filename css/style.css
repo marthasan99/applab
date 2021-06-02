@@ -7,6 +7,55 @@ body{
 }
 /*****************************
 
+********Preloader section********
+
+******************************/
+#loader{
+	background: linear-gradient(to right, #eba83a, #bb371a);
+}
+
+.screen{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.circle{
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	border-top: 20px solid green;
+	position: relative;
+	animation: rotate 2s linear infinite;
+}
+.circle::before{
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	position: absolute;
+	content: '';
+	top: -10%;
+	border-top: 20px solid blue;
+	transform: rotate(120deg);
+}
+.circle::after{
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	position: absolute;
+	content: '';
+	top: -10%;
+	border-top: 20px solid red;
+	transform: rotate(240deg);
+}
+@keyframes rotate{
+	to{
+		transform: rotate(360deg);
+	}
+}
+/*****************************
+
 ********Header section********
 
 ******************************/
